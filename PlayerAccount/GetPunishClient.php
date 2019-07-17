@@ -5,7 +5,6 @@
     die("Error connecting to MySQL database (".$mysqli->connect_errno.") ".$mysqli->connect_error);
   }
 
-
   $response = array();
   $tokens = array();
   $response["Name"] = str_replace('"', "", $target);
